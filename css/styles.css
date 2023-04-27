@@ -60,6 +60,7 @@ header {
 
 a:link {
     text-decoration: none;
+    color: black;
 }
 
 a:visited {
@@ -136,6 +137,7 @@ a:active {
     display: block;
     margin: auto;
     filter: drop-shadow(0px 0px 10px #0F0F0F);
+    max-width: 100%;   /* use this for responsive images!!! */
 }
 
 .content__art2 {
@@ -376,9 +378,9 @@ footer {
 
     @media (max-width: 443px) {
 
-        .content__art1 img {
+        /* .content__art1 img {
             width: auto;
-        }
+        } */
 
         .content__art2 img {
             width: 250px;
